@@ -8,16 +8,16 @@ export default function Home() {
 
   return (
     <main className="h-screen flex items-center justify-center bg-no-repeat bg-cover">
-      <Image src="/images/bg.png" alt="wedding card" fill className="object-cover" />
+      <Image src="/images/bg.jpg" alt="wedding card" fill className="object-cover" />
       <div className="absolute top-0 left-0 size-full bg-black bg-opacity-10 flex items-center justify-center px-4">
-        <div className="relative h-[600px] w-[600px] min-w-[385px] bg-white bg-opacity-90 p-5 py-10 text-center flex flex-col align-center justify-between">
+        <div className="relative h-[600px] w-[600px] min-w-[355px] bg-white bg-opacity-50 p-5 pb-10 pt-5 text-center flex flex-col align-center justify-between">
           <div className="flex justify-center gap-3">
             <Image src="/icons/rings.svg" alt="wedding card" width={48} height={48} />
             <p className="text-3xl my-5 montserrat-400 grey-qo-regular">Taklifnoma</p>
           </div>
           <div>
             <p className="text-3xl">Hurmatli mehmon</p>
-            <p className="text-xl my-5 montserrat-400 px-10">
+            <p className="text-xl my-5 montserrat-400 px-10 max-sm:px-0">
               Sizni{" "}
               <span className="whitespace-nowrap">
                 <span className="grey-qo-regular text-2xl text-yellow-600">Xolmurod</span> va{" "}
@@ -47,7 +47,7 @@ export default function Home() {
           {isRunning ? (
             <div className="text-center">
               <p className="mb-2 font-medium">Marosim boshlanishiga qoldi:</p>
-              <div className="flex justify-center w-1/2 mx-auto">
+              <div className="flex justify-center w-[260px] mx-auto">
                 <div className="flex flex-col grow w-fit text-gray-600">
                   <span className="text-xl">{days}</span>
                   <span>kun</span>
