@@ -20,8 +20,8 @@ export default function Home() {
             <p className="text-xl my-5 montserrat-400 px-10 max-sm:px-0">
               Sizni{" "}
               <span className="whitespace-nowrap">
-                <span className="grey-qo-regular text-2xl text-yellow-600">Xolmurod</span> va{" "}
-                <span className="grey-qo-regular text-2xl text-yellow-600">Marjonaxon</span>
+                <span className="grey-qo-regular text-2xl text-[#5db787]">Xolmurod</span> va{" "}
+                <span className="grey-qo-regular text-2xl text-[#5db787]">Marjonaxon</span>
               </span>{" "}
               larning nikoh to'yining faxriy mehmoni bo'lishga taklif qilamiz
             </p>
