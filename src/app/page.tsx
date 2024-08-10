@@ -12,7 +12,7 @@ export default function Home() {
       <div className="absolute top-0 left-0 size-full bg-black bg-opacity-10 flex items-center justify-center px-4">
         <div className="relative h-[600px] w-[600px] min-w-[385px] bg-white bg-opacity-90 p-5 py-10 text-center flex flex-col align-center justify-between">
           <div className="flex justify-center gap-3">
-            <Image src="/icons/rings.svg" alt="wedding card" width={50} height={50} />
+            <Image src="/icons/rings.svg" alt="wedding card" width={48} height={48} />
             <p className="text-3xl my-5 montserrat-400 grey-qo-regular">Taklifnoma</p>
           </div>
           <div>
